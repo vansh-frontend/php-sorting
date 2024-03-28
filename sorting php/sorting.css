@@ -1,0 +1,69 @@
+/* sorting.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection{
+  background-color: rgba(255,255,255,0.3);
+  color: #444;
+}
+/* body colors */
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+/* style for h1 */
+h1{
+  font-size: 30px;
+  color: #ddd;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* class sort */
+.sort {
+  margin: 20px auto;
+  width: 80%;
+}
+/* table css for glass effect */
+table{
+  width:100%;
+  table-layout: fixed;
+  background-color:rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0,0,0,0.2);
+}
+/* table border style */
+table,th, td {
+  padding: 12px;
+  text-align: left;
+  border: none;
+  border-radius: 15px;
+}
+/* th style */
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0.3);
+}
+/* td style */
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  border-bottom:solid 1px rgba(255,255,255,0.1); 
+}
+/* td hover effect */
+td:hover{
+  background-color:rgba(0, 0, 0, 0.1);
+}
